@@ -1,5 +1,5 @@
-require('./connection/cnx.js');
-const Person = require('./models/Person.js');
+require("./src/connection/cnx")
+const Person = require("./src/models/Person");
 
 
 let p = new Person({
